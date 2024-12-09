@@ -1,0 +1,20 @@
+﻿@using ENT;
+@model List<Persona>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <!--
+    @foreach (Persona p in Model) {
+        <ul>
+            <li>@p.Nombre @Html.ActionLink("Edit", "Persona", "Home", new {p.Id})</li>
+        </ul>
+    }
+    -->
+    @Html.ActionLink("Listado Persona", "Index", "Personas")
+</div>

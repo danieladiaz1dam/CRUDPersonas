@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vmodel="clr-namespace:MAUI.ViewModel"
+             x:Class="MAUI.Views.CrearPersonaView"
+             Title="CrearPersonaView">
+    <ContentPage.BindingContext>
+        <vmodel:CrearPersonaVM/>
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" Padding="16" VerticalOptions="Start">
+            <Button Text="Back" Command="{Binding BtnVolverCmd}" MaximumWidthRequest="100" HorizontalOptions="Start"/>
+
+            <Entry Placeholder="Photo" Text="{Binding Foto}"/>
+            <Entry Placeholder="Name" Text="{Binding Nombre}"/>
+            <Entry Placeholder="Last Name" Text="{Binding Apellidos}"/>
+            <Entry Placeholder="Phone" Text="{Binding Telefono}"/>
+            <Entry Placeholder="Address" Text="{Binding Direccion}"/>
+            <DatePicker x:Name="BirthDatePicker" Date="{Binding FechaNacimiento}"/>
+
+            <Picker Title="Departamento"
+                ItemsSource="{Binding Departamentos}"
+                ItemDisplayBinding="{Binding Nombre}"
+                SelectedItem="{Binding DepartamentoSeleccionado}"
+            />
+
+            <Button Text="Save" Command="{Binding BtnGuardarCmd}"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

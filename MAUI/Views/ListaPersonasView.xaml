@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vmodel="clr-namespace:MAUI.ViewModel"
+             x:Class="MAUI.Views.ListaPersonasView"
+             Title="ListaPersonasView">
+
+    <ContentPage.BindingContext>
+        <vmodel:ListadoPersonasConDepartamentoVM/>
+    </ContentPage.BindingContext>
+
+    <Grid Padding="12">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button Command="{Binding BtnDetallesCmd}" ImageSource="details.png" Grid.Row="0" Grid.Column="0" MaximumWidthRequest="50"/>
+        <Button Command="{Binding BtnEditarCmd}"   ImageSource="edit.png" Grid.Row="0" Grid.Column="1" MaximumWidthRequest="50"/>
+        <Button Command="{Binding BtnBorrarCmd}"   ImageSource="delete.png" Grid.Row="0" Grid.Column="2" MaximumWidthRequest="50"/>
+        <Button Command="{Binding BtnRecargarCmd}" ImageSource="refresh.png" Grid.Row="0" Grid.Column="4" MaximumWidthRequest="50"/>
+
+        <ListView Margin="0,10,0,0" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" ItemsSource="{Binding Lista}" SelectedItem="{Binding PersonaSeleccionada}" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.Row="0" Grid.Column="1" Text="{Binding NombreCompleto}"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+        <Button Grid.Row="1" Grid.ColumnSpan="4"
+            MaximumWidthRequest="60" MaximumHeightRequest="60" Command="{Binding BtnCrearCmd}"
+            HorizontalOptions="End"  VerticalOptions="End" ImageSource="plus.png" />
+    </Grid>
+</ContentPage>

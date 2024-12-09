@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\urpop\\Documents\\daniela\\socorro\\repos\\CRUDPersona\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{381AA879-FA94-4E98-8562-2FC7E559D91E}|MAUI\\MAUI.csproj|c:\\users\\urpop\\documents\\daniela\\socorro\\repos\\crudpersona\\maui\\views\\listapersonasview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{381AA879-FA94-4E98-8562-2FC7E559D91E}|MAUI\\MAUI.csproj|solutionrelative:maui\\views\\listapersonasview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381AA879-FA94-4E98-8562-2FC7E559D91E}|MAUI\\MAUI.csproj|c:\\users\\urpop\\documents\\daniela\\socorro\\repos\\crudpersona\\maui\\viewmodel\\crearpersonavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{381AA879-FA94-4E98-8562-2FC7E559D91E}|MAUI\\MAUI.csproj|solutionrelative:maui\\viewmodel\\crearpersonavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListaPersonasView.xaml",
+              "DocumentMoniker": "C:\\Users\\urpop\\Documents\\daniela\\socorro\\repos\\CRUDPersona\\MAUI\\Views\\ListaPersonasView.xaml",
+              "RelativeDocumentMoniker": "MAUI\\Views\\ListaPersonasView.xaml",
+              "ToolTip": "C:\\Users\\urpop\\Documents\\daniela\\socorro\\repos\\CRUDPersona\\MAUI\\Views\\ListaPersonasView.xaml",
+              "RelativeToolTip": "MAUI\\Views\\ListaPersonasView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-09T18:18:08.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CrearPersonaVM.cs",
+              "DocumentMoniker": "C:\\Users\\urpop\\Documents\\daniela\\socorro\\repos\\CRUDPersona\\MAUI\\ViewModel\\CrearPersonaVM.cs",
+              "RelativeDocumentMoniker": "MAUI\\ViewModel\\CrearPersonaVM.cs",
+              "ToolTip": "C:\\Users\\urpop\\Documents\\daniela\\socorro\\repos\\CRUDPersona\\MAUI\\ViewModel\\CrearPersonaVM.cs",
+              "RelativeToolTip": "MAUI\\ViewModel\\CrearPersonaVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:33:59.398Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MAUI.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MAUI"
+    xmlns:views="clr-namespace:MAUI.Views"
+    Shell.FlyoutBehavior="Disabled"
+    Title="MAUI">
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Personas" Icon="people.png" Route="listaPersonas" ContentTemplate="{DataTemplate views:ListaPersonasView}" />
+        <ShellContent Title="Departamentos" Icon="department.png" Route="listaDepartamentos" ContentTemplate="{DataTemplate views:ListaDepartamentosView}" />
+    </FlyoutItem>
+
+    <ShellContent Title="Detalles Persona"  Route="detallesPersona" ContentTemplate="{DataTemplate views:DetallesPersonaView}" />
+    <ShellContent Title="Editar Persona" Route="editarPersona" ContentTemplate="{DataTemplate views:EditarPersonaView}" />
+    <ShellContent Title="Crear Persona" Route="crearPersona" ContentTemplate="{DataTemplate views:CrearPersonaView}" />
+</Shell>

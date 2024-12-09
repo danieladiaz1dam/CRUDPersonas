@@ -1,0 +1,67 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MAUI
+build_property.ProjectDir = C:\Users\urpop\Documents\daniela\socorro\repos\CRUDPersona\MAUI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/urpop/Documents/daniela/socorro/repos/CRUDPersona/MAUI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/urpop/Documents/daniela/socorro/repos/CRUDPersona/MAUI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/urpop/Documents/daniela/socorro/repos/CRUDPersona/MAUI/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/urpop/Documents/daniela/socorro/repos/CRUDPersona/MAUI/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/urpop/Documents/daniela/socorro/repos/CRUDPersona/MAUI/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/urpop/Documents/daniela/socorro/repos/CRUDPersona/MAUI/Views/DetallesPersonaView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Views.DetallesPersonaView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DetallesPersonaView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DetallesPersonaView.xaml
+
+[C:/Users/urpop/Documents/daniela/socorro/repos/CRUDPersona/MAUI/Views/ListaDepartamentosView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Views.ListaDepartamentosView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ListaDepartamentosView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ListaDepartamentosView.xaml
+
+[C:/Users/urpop/Documents/daniela/socorro/repos/CRUDPersona/MAUI/Views/ListaPersonasView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Views.ListaPersonasView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ListaPersonasView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ListaPersonasView.xaml

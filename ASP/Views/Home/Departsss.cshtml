@@ -1,0 +1,10 @@
+﻿@using ENT;
+@model List<Departamento>
+
+@foreach (Departamento d in Model)
+{
+    <ul>
+        <li>@d.ID</li>
+        <li>@d.Nombre</li>
+    </ul>
+}
